@@ -1,17 +1,41 @@
 //
-//  BrowsePartnersView.swift
-//  Cozone
+//  ContentView.swift
+//  CoZoneApp
 //
-//  Created by Eunice Adam on 11/5/23.
+//  Created by Seck, Fagaye on 11/4/23.
 //
 
 import SwiftUI
 
 struct BrowsePartnersView: View {
+    @State private var searchText = ""
+    @Environment(\.managedObjectContext) private var viewContext
+    @Environment(\.dismiss) var dismiss
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+        VStack {
+            Text("CoZone!")
+                .font(.custom("Outfit-Regular", size: 48))
+                .foregroundColor(Color.blue)
+                .padding(.bottom, 20.0)
+
+            SearchView(searchText: $searchText)
+            
+            NavigationView {
+                           ProfileListView()
+                               .navigationTitle("CSC 161")
+                       }
+
+            Spacer()
+
+            NavigationView {
+                // Add your navigation content here
+            }
+        }
     }
 }
+
 
 struct BrowsePartnersView_Previews: PreviewProvider {
     static var previews: some View {
