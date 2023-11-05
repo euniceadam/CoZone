@@ -14,41 +14,55 @@ struct Q5: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("What's your")
-                .font(.largeTitle)
+                .font(.custom("Outfit-Regular", size: 40))
                 .padding(.horizontal)
+            
             Text("CoZonality?")
-                .font(.largeTitle)
-                .fontWeight(.bold)
+                .font(.custom("Outfit-SemiBold", size: 40))
                 .foregroundColor(buttonColor)
                 .padding(.leading)
+                .frame(maxWidth: 350, alignment: .leading)
+            
             Text("Answer a few questions to find out what kind of partner you are")
-                .fontWeight(.light)
-                .padding(.leading)
-            Spacer(minLength: 100)
+                .font(.custom("Montserrat-Light", size: 16))
+                .frame(maxWidth: 350, alignment: .leading)
+                .padding()
+            
+            Spacer(minLength: 50)
+            
             Text("When you see the word 'cat', what do you do?:")
+                .font(.custom("Outfit-Medium", size: 26))
+                .frame(maxWidth: 350, alignment: .leading)
+                .padding(.top, -70.0)
+                .padding()
+            
             Button (action: {self.selectedAnswer = "a"}){
                 Text("a. Picture a cat in your mind")
                     .padding()
                     .foregroundColor(Color.black)
-                    .background(selectedAnswer == "a" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .background(selectedAnswer == "a" ? Color("lavenderlite") : Color.clear)
                     .cornerRadius(10)
+                    .frame(width:300)
                 
             }
             
             Button (action: {self.selectedAnswer = "b"}){
-                Text("b. Say the word 'cat' to yourself")
+                Text("b. Sat the word 'cat' to yourself")
                     .padding()
                     .foregroundColor(Color.black)
-                    .background(selectedAnswer == "b" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .background(selectedAnswer == "b" ? Color("lavenderlite") : Color.clear) // Change the button color conditionally
                     .cornerRadius(10)
+                    .frame(width:300)
                 
             }
+            
             Button (action: {self.selectedAnswer = "c"}){
                 Text("c. Think about being with a cat (stroking it or hearing it meow)")
                     .padding()
                     .foregroundColor(Color.black)
-                    .background(selectedAnswer == "c" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .background(selectedAnswer == "c" ? Color("lavenderlite") : Color.clear) // Change the button color conditionally
                     .cornerRadius(10)
+                    .frame(width:300)
                 
             }
             
@@ -61,7 +75,7 @@ struct Q5: View {
                     .background(selectedAnswer != nil ? buttonColor : Color("lavenderlite"))
                     .cornerRadius(15)
             }
-            .padding()
+            .padding(.leading, 40.0)
             .disabled(selectedAnswer == nil) 
         }
     }
