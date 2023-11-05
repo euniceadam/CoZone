@@ -5,6 +5,7 @@
 //  Created by Eunice Adam on 11/5/23.
 //
 
+
 import SwiftUI
 
 struct VisualLearner: View {
@@ -43,7 +44,7 @@ struct VisualLearner: View {
             
             Spacer()
             
-            Button(action: {}) {
+            NavigationLink(destination: BrowsePartnersView()) {
                 Text("Find some partners!")
                     .font(.title3)
                     .fontWeight(.semibold)
