@@ -17,7 +17,7 @@ struct LoginView: View {
     let purple = Color("purple")
 
     var body: some View {
-        NavigationView {
+        
             VStack {
                 Spacer(minLength: 200)
                 Text("Sign-in with your email.")
@@ -91,7 +91,7 @@ struct LoginView: View {
                     .opacity(0)
             )
         }
-    }
+    
 
     private func checkLoginButtonState() {
         isLoginEnabled = !username.isEmpty && !password.isEmpty
