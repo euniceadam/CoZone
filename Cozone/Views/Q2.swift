@@ -32,20 +32,23 @@ struct Q2: View {
                 Text("a. Saying them out loud")
                     .padding()
                     .foregroundColor(Color.black)
-                
+                    .background(selectedAnswer == "a" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
             }
             
             Button (action: {self.selectedAnswer = "b"}){
                 Text("b. Watching a demonstration")
                     .padding()
                     .foregroundColor(Color.black)
-                
+                    .background(selectedAnswer == "b" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
             }
             Button (action: {self.selectedAnswer = "c"}){
                 Text("c. Experiencing it for yourself")
                     .padding()
                     .foregroundColor(Color.black)
-                
+                    .background(selectedAnswer == "c" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
             }
             
             Spacer()

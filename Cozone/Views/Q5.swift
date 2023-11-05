@@ -30,19 +30,25 @@ struct Q5: View {
                 Text("a. Picture a cat in your mind")
                     .padding()
                     .foregroundColor(Color.black)
+                    .background(selectedAnswer == "a" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
                 
             }
             
             Button (action: {self.selectedAnswer = "b"}){
-                Text("b. Sat the word 'cat' to yourself")
+                Text("b. Say the word 'cat' to yourself")
                     .padding()
                     .foregroundColor(Color.black)
+                    .background(selectedAnswer == "b" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
                 
             }
             Button (action: {self.selectedAnswer = "c"}){
                 Text("c. Think about being with a cat (stroking it or hearing it meow)")
                     .padding()
                     .foregroundColor(Color.black)
+                    .background(selectedAnswer == "c" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
                 
             }
             

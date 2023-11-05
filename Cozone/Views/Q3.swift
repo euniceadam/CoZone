@@ -33,16 +33,22 @@ struct Q3: View {
                 Text("a. Takes too long; you get fidgety")
                     .padding()
                     .foregroundColor(Color.black)
+                    .background(selectedAnswer == "a" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
             }
             Button (action: {self.selectedAnswer = "b"}){
                 Text("b. The best and most relaxing thing ever")
                     .padding()
                     .foregroundColor(Color.black)
+                    .background(selectedAnswer == "b" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
             }
             Button (action: {self.selectedAnswer = "c"}){
                 Text("c. Pretty boring; you'd rather be outside")
                     .padding()
                     .foregroundColor(Color.black)
+                    .background(selectedAnswer == "c" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
             }
             Spacer()
             NavigationLink(destination: Q4()){

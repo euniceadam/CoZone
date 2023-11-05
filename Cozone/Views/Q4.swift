@@ -31,6 +31,8 @@ struct Q4: View {
                 Text("a. Name")
                     .padding()
                     .foregroundColor(Color.black)
+                    .background(selectedAnswer == "a" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
                 
             }
             
@@ -38,13 +40,16 @@ struct Q4: View {
                 Text("b. Face")
                     .padding()
                     .foregroundColor(Color.black)
+                    .background(selectedAnswer == "b" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
                 
             }
             Button (action: {self.selectedAnswer = "c"}){
                 Text("c. Hug/handshake")
                     .padding()
                     .foregroundColor(Color.black)
-                
+                    .background(selectedAnswer == "c" ? Color("lavenderlite") : Color.gray) // Change the button color conditionally
+                    .cornerRadius(10)
             }
             
             Spacer()
