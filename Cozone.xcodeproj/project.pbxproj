@@ -44,8 +44,9 @@
 		0756D9612AF7746F0062D68A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0756D9552AF7746F0062D68A /* OFL.txt */; };
 		0756D9622AF7746F0062D68A /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0756D9562AF7746F0062D68A /* README.txt */; };
 		0756D9642AF774CB0062D68A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D9632AF774CB0062D68A /* LoginView.swift */; };
-		0756D9662AF774F30062D68A /* BrowsePartnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D9652AF774F30062D68A /* BrowsePartnersView.swift */; };
 		0756D96D2AF780720062D68A /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D96C2AF780720062D68A /* Welcome.swift */; };
+		0756D96F2AF785CA0062D68A /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D96E2AF785CA0062D68A /* Quiz.swift */; };
+		0756D9732AF7862C0062D68A /* BrowsePartnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D9722AF7862C0062D68A /* BrowsePartnersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,9 +88,10 @@
 		0756D9552AF7746F0062D68A /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		0756D9562AF7746F0062D68A /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		0756D9632AF774CB0062D68A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		0756D9652AF774F30062D68A /* BrowsePartnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsePartnersView.swift; sourceTree = "<group>"; };
 		0756D9692AF776230062D68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0756D96C2AF780720062D68A /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		0756D96E2AF785CA0062D68A /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		0756D9722AF7862C0062D68A /* BrowsePartnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsePartnersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,8 +210,9 @@
 			isa = PBXGroup;
 			children = (
 				0756D9632AF774CB0062D68A /* LoginView.swift */,
-				0756D9652AF774F30062D68A /* BrowsePartnersView.swift */,
+				0756D9722AF7862C0062D68A /* BrowsePartnersView.swift */,
 				0756D96C2AF780720062D68A /* Welcome.swift */,
+				0756D96E2AF785CA0062D68A /* Quiz.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,10 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0756D9642AF774CB0062D68A /* LoginView.swift in Sources */,
+				0756D9732AF7862C0062D68A /* BrowsePartnersView.swift in Sources */,
+				0756D96F2AF785CA0062D68A /* Quiz.swift in Sources */,
 				0756D96D2AF780720062D68A /* Welcome.swift in Sources */,
 				0756D9122AF774160062D68A /* ContentView.swift in Sources */,
 				0756D9102AF774160062D68A /* CozoneApp.swift in Sources */,
-				0756D9662AF774F30062D68A /* BrowsePartnersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
