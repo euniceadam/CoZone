@@ -43,8 +43,9 @@ struct TTView: View {
             Text("Two tactile learners create an interactive, hands-on learning experience by engaging in activities like building models, collaborative projects, discussions, physical demonstrations, using tactile aids and technology, teaching each other, experimenting, and ensuring a tactile-friendly environment.")
                 .multilineTextAlignment(.center)
                 .padding()
-                .frame(width: 300.0, height: 400.0)
+                .frame(width: 300.0, height: 300.0)
                 .background(Color("lavenderlite"))
+                .cornerRadius(32)
                 .frame(maxWidth: .infinity, alignment: .center)
                 .cornerRadius(10)
             ZStack {

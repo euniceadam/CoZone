@@ -12,7 +12,7 @@ struct VVView: View {
         VStack(alignment: .leading) {
             Text("It's a match.")
                 .font(.largeTitle)
-                .padding(.horizontal)
+                .padding([.top, .leading, .trailing])
             Text("Here is your")
                 .font(.largeTitle)
                 .padding(.horizontal)
@@ -42,11 +42,13 @@ struct VVView: View {
             Spacer()
             Text("Two visual learners can effectively collaborate, harnessing their shared visual preference. Strategies encompass visual note-taking, creating and sharing visual aids, using image flashcards, peer teaching with visuals, leading visual discussions, using multimedia, employing visual structures like mind maps, collaborative annotations, visual memory techniques, and respecting individual visual learning choices.")
                 .multilineTextAlignment(.center)
+                .frame(width: 300.0, height: 300.0)
                 .padding()
-                .frame(width: 300.0, height: 400.0)
                 .background(Color("lavenderlite"))
+                .cornerRadius(32)
                 .frame(maxWidth: .infinity, alignment: .center)
-                .cornerRadius(10)
+                .cornerRadius(2)
+
             ZStack {
                            RoundedRectangle(cornerRadius: 10)
                                .fill(Color("lightgray"))

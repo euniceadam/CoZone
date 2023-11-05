@@ -57,7 +57,7 @@ struct Q3: View {
     
     struct Q3_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            Q3()
         }
     }
 }

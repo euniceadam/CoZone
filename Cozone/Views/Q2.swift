@@ -5,7 +5,7 @@
 //  Created by Rob, Leka on 11/5/23.
 //
 
-import Foundation
+//import Foundation
 import SwiftUI
 
 struct Q2: View {
@@ -62,7 +62,7 @@ struct Q2: View {
     
     struct Q2_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            Q2()
         }
     }
 }

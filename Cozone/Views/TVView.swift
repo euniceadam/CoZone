@@ -12,7 +12,7 @@ struct TVView: View {
         VStack(alignment: .leading) {
             Text("It's a match.")
                 .font(.largeTitle)
-                .padding(.horizontal)
+                .padding([.top, .leading, .trailing])
             Text("Here is your")
                 .font(.largeTitle)
                 .padding(.horizontal)
@@ -43,8 +43,9 @@ struct TVView: View {
             Text("Tactile and visual learners collaborate effectively by combining their different learning preferences. They use tactile materials, visual aids, tactile study aids, teach through demonstrations and illustrations, have group study sessions, employ interactive technology, work with visual representations, manipulate objects, respect individual preferences, and offer feedback.")
                 .multilineTextAlignment(.center)
                 .padding()
-                .frame(width: 300.0, height: 400.0)
+                .frame(width: 300.0, height: 300.0)
                 .background(Color("lavenderlite"))
+                .cornerRadius(32)
                 .frame(maxWidth: .infinity, alignment: .center)
                 .cornerRadius(10)
             ZStack {

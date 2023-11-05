@@ -12,7 +12,7 @@ struct AAView: View {
         VStack(alignment: .leading) {
             Text("It's a match.")
                 .font(.largeTitle)
-                .padding(.horizontal)
+                .padding([.top, .leading, .trailing])
             Text("Here is your")
                 .font(.largeTitle)
                 .padding(.horizontal)
@@ -43,10 +43,11 @@ struct AAView: View {
             Text("Two auditory learners can enhance their collaboration by using verbal explanations, Q&A sessions, recitation, audio recordings, memory aids like mnemonics, role-playing, debates, teaching each other, educational podcasts, goal setting, and periodic summaries.")
                 .multilineTextAlignment(.center)
                 .padding()
-                .frame(width: 300.0, height: 400.0)
+                .frame(width: 300.0, height: 300.0)
                 .background(Color("lavenderlite"))
+                .cornerRadius(32)
                 .frame(maxWidth: .infinity, alignment: .center)
-                .cornerRadius(10)
+                
             ZStack {
                            RoundedRectangle(cornerRadius: 10)
                                .fill(Color("lightgray"))

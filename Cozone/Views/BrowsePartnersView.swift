@@ -18,14 +18,14 @@ struct BrowsePartnersView: View {
             Text("CoZone!")
                 .font(.custom("Outfit-Regular", size: 48))
                 .foregroundColor(Color.blue)
-                .padding(.bottom, 20.0)
+                .padding(.vertical, 20.0)
 
-            SearchView(searchText: $searchText)
+            //SearchView(searchText: $searchText)
             
-            NavigationView {
-                           ProfileListView()
-                               .navigationTitle("CSC 161")
-                       }
+            //NavigationView {
+                           //ProfileListView()
+                               //.navigationTitle("CSC 161")
+                       //}
 
             Spacer()
 

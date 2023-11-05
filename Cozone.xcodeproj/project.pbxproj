@@ -57,7 +57,6 @@
 		918DFCA22AF790FC00788761 /* TVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFCA12AF790FC00788761 /* TVView.swift */; };
 		918DFCA42AF7910100788761 /* TTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFCA32AF7910100788761 /* TTView.swift */; };
 		918DFCA62AF7910600788761 /* VVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFCA52AF7910600788761 /* VVView.swift */; };
-		918DFCA82AF7911200788761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918DFCA72AF7911200788761 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,7 +112,6 @@
 		918DFCA12AF790FC00788761 /* TVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVView.swift; sourceTree = "<group>"; };
 		918DFCA32AF7910100788761 /* TTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTView.swift; sourceTree = "<group>"; };
 		918DFCA52AF7910600788761 /* VVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVView.swift; sourceTree = "<group>"; };
-		918DFCA72AF7911200788761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/CoZone/CoZone/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +151,6 @@
 				0756D90F2AF774160062D68A /* CozoneApp.swift */,
 				0756D9112AF774160062D68A /* ContentView.swift */,
 				0756D9132AF774170062D68A /* Assets.xcassets */,
-				918DFCA72AF7911200788761 /* Assets.xcassets */,
 				0756D9152AF774170062D68A /* Preview Content */,
 			);
 			path = Cozone;
@@ -312,7 +309,6 @@
 				0756D9392AF774670062D68A /* Montserrat-BoldItalic.ttf in Resources */,
 				0756D95D2AF7746F0062D68A /* Outfit-ExtraLight.ttf in Resources */,
 				0756D9362AF774670062D68A /* Montserrat-Italic-VariableFont_wght.ttf in Resources */,
-				918DFCA82AF7911200788761 /* Assets.xcassets in Resources */,
 				0756D95A2AF7746F0062D68A /* Outfit-Black.ttf in Resources */,
 				0756D93F2AF774670062D68A /* Montserrat-MediumItalic.ttf in Resources */,
 				0756D9602AF7746F0062D68A /* Outfit-Light.ttf in Resources */,

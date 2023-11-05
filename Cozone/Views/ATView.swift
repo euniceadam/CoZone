@@ -12,7 +12,7 @@ struct ATView: View {
         VStack(alignment: .leading) {
             Text("It's a match.")
                 .font(.largeTitle)
-                .padding(.horizontal)
+                .padding([.top, .leading, .trailing])
             Text("Here is your")
                 .font(.largeTitle)
                 .padding(.horizontal)
@@ -43,8 +43,9 @@ struct ATView: View {
             Text("Tactile and auditory learners benefit from collaboration, utilizing active discussions, group sessions, teaching, visual aids, technology, mind maps, role-playing, feedback, and respecting preferences to enhance comprehension and retention, accommodating diverse learning styles.")
                 .multilineTextAlignment(.center)
                 .padding()
-                .frame(width: 300.0, height: 400.0)
+                .frame(width: 300.0, height: 300.0)
                 .background(Color("lavenderlite"))
+                .cornerRadius(32)
                 .frame(maxWidth: .infinity, alignment: .center)
                 .cornerRadius(10)
             ZStack {
