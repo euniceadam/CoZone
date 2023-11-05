@@ -47,6 +47,17 @@
 		0756D96D2AF780720062D68A /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D96C2AF780720062D68A /* Welcome.swift */; };
 		0756D96F2AF785CA0062D68A /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D96E2AF785CA0062D68A /* Quiz.swift */; };
 		0756D9732AF7862C0062D68A /* BrowsePartnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D9722AF7862C0062D68A /* BrowsePartnersView.swift */; };
+		918DFC942AF790CF00788761 /* Q2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFC932AF790CF00788761 /* Q2.swift */; };
+		918DFC962AF790D500788761 /* Q3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFC952AF790D500788761 /* Q3.swift */; };
+		918DFC982AF790DC00788761 /* Q4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFC972AF790DC00788761 /* Q4.swift */; };
+		918DFC9A2AF790E200788761 /* Q5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFC992AF790E200788761 /* Q5.swift */; };
+		918DFC9C2AF790ED00788761 /* AAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFC9B2AF790ED00788761 /* AAView.swift */; };
+		918DFC9E2AF790F200788761 /* AVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFC9D2AF790F200788761 /* AVView.swift */; };
+		918DFCA02AF790F700788761 /* ATView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFC9F2AF790F700788761 /* ATView.swift */; };
+		918DFCA22AF790FC00788761 /* TVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFCA12AF790FC00788761 /* TVView.swift */; };
+		918DFCA42AF7910100788761 /* TTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFCA32AF7910100788761 /* TTView.swift */; };
+		918DFCA62AF7910600788761 /* VVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DFCA52AF7910600788761 /* VVView.swift */; };
+		918DFCA82AF7911200788761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918DFCA72AF7911200788761 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +103,17 @@
 		0756D96C2AF780720062D68A /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		0756D96E2AF785CA0062D68A /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		0756D9722AF7862C0062D68A /* BrowsePartnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsePartnersView.swift; sourceTree = "<group>"; };
+		918DFC932AF790CF00788761 /* Q2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q2.swift; sourceTree = "<group>"; };
+		918DFC952AF790D500788761 /* Q3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q3.swift; sourceTree = "<group>"; };
+		918DFC972AF790DC00788761 /* Q4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q4.swift; sourceTree = "<group>"; };
+		918DFC992AF790E200788761 /* Q5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q5.swift; sourceTree = "<group>"; };
+		918DFC9B2AF790ED00788761 /* AAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAView.swift; sourceTree = "<group>"; };
+		918DFC9D2AF790F200788761 /* AVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVView.swift; sourceTree = "<group>"; };
+		918DFC9F2AF790F700788761 /* ATView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATView.swift; sourceTree = "<group>"; };
+		918DFCA12AF790FC00788761 /* TVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVView.swift; sourceTree = "<group>"; };
+		918DFCA32AF7910100788761 /* TTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTView.swift; sourceTree = "<group>"; };
+		918DFCA52AF7910600788761 /* VVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVView.swift; sourceTree = "<group>"; };
+		918DFCA72AF7911200788761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/CoZone/CoZone/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +153,7 @@
 				0756D90F2AF774160062D68A /* CozoneApp.swift */,
 				0756D9112AF774160062D68A /* ContentView.swift */,
 				0756D9132AF774170062D68A /* Assets.xcassets */,
+				918DFCA72AF7911200788761 /* Assets.xcassets */,
 				0756D9152AF774170062D68A /* Preview Content */,
 			);
 			path = Cozone;
@@ -213,6 +236,16 @@
 				0756D9722AF7862C0062D68A /* BrowsePartnersView.swift */,
 				0756D96C2AF780720062D68A /* Welcome.swift */,
 				0756D96E2AF785CA0062D68A /* Quiz.swift */,
+				918DFC932AF790CF00788761 /* Q2.swift */,
+				918DFC952AF790D500788761 /* Q3.swift */,
+				918DFC972AF790DC00788761 /* Q4.swift */,
+				918DFC992AF790E200788761 /* Q5.swift */,
+				918DFC9B2AF790ED00788761 /* AAView.swift */,
+				918DFC9D2AF790F200788761 /* AVView.swift */,
+				918DFC9F2AF790F700788761 /* ATView.swift */,
+				918DFCA12AF790FC00788761 /* TVView.swift */,
+				918DFCA32AF7910100788761 /* TTView.swift */,
+				918DFCA52AF7910600788761 /* VVView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,6 +312,7 @@
 				0756D9392AF774670062D68A /* Montserrat-BoldItalic.ttf in Resources */,
 				0756D95D2AF7746F0062D68A /* Outfit-ExtraLight.ttf in Resources */,
 				0756D9362AF774670062D68A /* Montserrat-Italic-VariableFont_wght.ttf in Resources */,
+				918DFCA82AF7911200788761 /* Assets.xcassets in Resources */,
 				0756D95A2AF7746F0062D68A /* Outfit-Black.ttf in Resources */,
 				0756D93F2AF774670062D68A /* Montserrat-MediumItalic.ttf in Resources */,
 				0756D9602AF7746F0062D68A /* Outfit-Light.ttf in Resources */,
@@ -320,11 +354,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0756D9642AF774CB0062D68A /* LoginView.swift in Sources */,
+				918DFCA42AF7910100788761 /* TTView.swift in Sources */,
 				0756D9732AF7862C0062D68A /* BrowsePartnersView.swift in Sources */,
+				918DFC9C2AF790ED00788761 /* AAView.swift in Sources */,
+				918DFC982AF790DC00788761 /* Q4.swift in Sources */,
+				918DFC9A2AF790E200788761 /* Q5.swift in Sources */,
+				918DFC9E2AF790F200788761 /* AVView.swift in Sources */,
 				0756D96F2AF785CA0062D68A /* Quiz.swift in Sources */,
 				0756D96D2AF780720062D68A /* Welcome.swift in Sources */,
 				0756D9122AF774160062D68A /* ContentView.swift in Sources */,
 				0756D9102AF774160062D68A /* CozoneApp.swift in Sources */,
+				918DFCA22AF790FC00788761 /* TVView.swift in Sources */,
+				918DFC942AF790CF00788761 /* Q2.swift in Sources */,
+				918DFC962AF790D500788761 /* Q3.swift in Sources */,
+				918DFCA62AF7910600788761 /* VVView.swift in Sources */,
+				918DFCA02AF790F700788761 /* ATView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
