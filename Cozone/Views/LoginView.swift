@@ -87,7 +87,7 @@ struct LoginView: View {
             }
             .padding()
             .background(
-                NavigationLink("", destination: BrowsePartnersView(), isActive: $isNavigationActive)
+                NavigationLink("", destination: Q2(), isActive: $isNavigationActive)
                     .opacity(0)
             )
         }

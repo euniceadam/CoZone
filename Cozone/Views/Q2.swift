@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct Q2: View {
+    @State private var selectedAnswer: String?
+    @State private var buttonColor: Color = Color("lavender")
     var body: some View {
         VStack(alignment: .leading) {
             Text("What's your")
@@ -26,20 +28,20 @@ struct Q2: View {
             Text("You remember things by:")
                 .font(.title2)
                 .padding(.horizontal)
-            Button (action: {}){
+            Button (action: {self.selectedAnswer = "a"}){
                 Text("a. Saying them out loud")
                     .padding()
                     .foregroundColor(Color.black)
                 
             }
             
-            Button (action: {}){
+            Button (action: {self.selectedAnswer = "b"}){
                 Text("b. Watching a demonstration")
                     .padding()
                     .foregroundColor(Color.black)
                 
             }
-            Button (action: {}){
+            Button (action: {self.selectedAnswer = "c"}){
                 Text("c. Experiencing it for yourself")
                     .padding()
                     .foregroundColor(Color.black)
@@ -51,12 +53,12 @@ struct Q2: View {
                 Text("Next")
                     .frame(width:300)
                     .padding(.vertical, 12)
-                    .foregroundColor(.black)
-                    .background(Color("lavenderlite"))
+                    .foregroundColor(.white)
+                    .background(selectedAnswer != nil ? buttonColor : Color("lavenderlite"))
                     .cornerRadius(15)
             }
             .padding()
-            
+            .disabled(selectedAnswer == nil) 
         }
     }
     
