@@ -87,7 +87,7 @@ struct LoginView: View {
             }
             .padding()
             .background(
-                NavigationLink("", destination: Q2(), isActive: $isNavigationActive)
+                NavigationLink("", destination: Avatars(), isActive: $isNavigationActive)
                     .opacity(0)
             )
         }
