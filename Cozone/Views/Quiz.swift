@@ -28,7 +28,7 @@ struct Quiz: View {
                 Text("Answer a few questions to find out what kind of partner you are.")
                     .frame(maxWidth: 350, alignment: .leading)
                     .font(.custom("Montserrat-Light", size: 16))
-                    .padding(.bottom, 30.0)
+                    .padding(.bottom, 20.0)
                 
                 Spacer()
                 
