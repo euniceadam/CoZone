@@ -36,7 +36,7 @@ struct Avatars: View {
                         .onTapGesture {
                             selectedAvatar = imageName
                         }
-                        .zIndex(1) // Set the zIndex to ensure the image is on top
+                    
                 }
             }
             
