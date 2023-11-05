@@ -15,17 +15,17 @@ struct Q3: View {
         VStack(alignment: .leading) {
             Text("What's your")
                 .font(.largeTitle)
-                .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
+                .padding(.horizontal)
             Text("CoZonality?")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-                .foregroundColor(Color("blue"))
-                .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
-                
+                .foregroundColor(buttonColor)
+                .padding(.leading)
             Text("Answer a few questions to find out what kind of partner you are")
                 .fontWeight(.light)
-                .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
-            Spacer()
+                .padding(.leading)
+            Spacer(minLength: 100)
+            
             Text("You find reading:")
                 .font(.title2)
                 .padding(.leading)

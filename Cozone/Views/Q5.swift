@@ -19,12 +19,12 @@ struct Q5: View {
             Text("CoZonality?")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-                .foregroundColor(Color.blue)
+                .foregroundColor(buttonColor)
                 .padding(.leading)
             Text("Answer a few questions to find out what kind of partner you are")
                 .fontWeight(.light)
                 .padding(.leading)
-            Spacer()
+            Spacer(minLength: 100)
             Text("When you see the word 'cat', what do you do?:")
             Button (action: {self.selectedAnswer = "a"}){
                 Text("a. Picture a cat in your mind")
@@ -47,7 +47,7 @@ struct Q5: View {
             }
             
             Spacer()
-            NavigationLink(destination: AAView()){
+            NavigationLink(destination: VisualLearner()){
                 Text("Next")
                     .frame(width:300)
                     .padding(.vertical, 12)
